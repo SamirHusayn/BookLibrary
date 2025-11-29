@@ -1,0 +1,35 @@
+.history-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.history-item {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid #3498db;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.history-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.history-action {
+  color: #3498db;
+  margin-right: 0.5rem;
+}
+
+.history-book {
+  color: #2c3e50;
+}
+
+.history-time {
+  color: #999;
+  font-size: 0.9rem;
+}
